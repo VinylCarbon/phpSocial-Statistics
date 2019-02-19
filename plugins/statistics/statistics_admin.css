@@ -1,0 +1,38 @@
+#filter-form {
+    float: right;
+    margin: 0 0 10px;
+    position: relative;
+    z-index: 10;
+}
+    #filter-form::after {
+        clear: both;
+    }
+
+.filter-month-day {
+    padding: 2px 5px;
+}
+    .filter-month-day a {
+        float: right;
+    }
+
+.advanced-stats {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.progress-bar {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: #eee;
+}
+    .progress-bar .progress {
+        display: block;
+        height: 15px;
+        background: #3A5796;
+    }
+
+.filter-title {
+    float: left;
+    margin-top: 5px;
+}
